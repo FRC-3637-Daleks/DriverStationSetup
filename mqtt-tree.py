@@ -24,7 +24,7 @@ client = mqtt.Client()
 client.on_connect = on_connect
 client.on_message = on_message
 
-client.connect("roboRIO-3637.local", 1180)
+client.connect("10.36.37.2", 1180)
 
 client.loop_start()
 
